@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.js{
+    /* position: absolute; */
+    display: flex;
+    width: 40%;
+    margin: 50px 600px;
+	justify-content: space-between;
+}
+.banner-bar .js li a{
+    color: black;
+}
+.js li a:hover{
+    color: #729edd;
+}
